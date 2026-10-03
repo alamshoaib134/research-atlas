@@ -1,0 +1,6 @@
+{
+  "name": "ArXiv Paper Network & Topic Evolution",
+  "description": "Interactive knowledge network graph and chronological topic developments analyzer for arXiv research papers with method comparisons and live news.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
