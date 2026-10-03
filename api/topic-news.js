@@ -12,7 +12,10 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "Topic is required" });
     }
 
-    const apiKey = process.env.NEWSDATA_API_KEY || "pub_79214e8bcea64488b67f1e830656bd8c";
+    const apiKey = process.env.NEWSDATA_API_KEY;
+    if (!apiKey) {
+      return res.status(503).json({ error: "NEWSDATA_API_KEY is not configured in environment variables." });
+    }
     const url = `https://newsdata.io/api/1/latest?apikey=${apiKey}&q=${encodeURIComponent(topic)}&language=en&category=technology,science`;
 
     const response = await fetch(url);
