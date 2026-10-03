@@ -6,7 +6,7 @@
 
 Map research landscapes, trace how methods evolve over time, and ask questions about your paper collection — powered by AI.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME%2Fresearch-atlas)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falamshoaib134%2Fresearch-atlas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <br/>
@@ -64,7 +64,7 @@ Bring your own papers — import from a local SQLite database, paste JSON, or **
 ### Option 2: Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/research-atlas.git
+git clone https://github.com/alamshoaib134/research-atlas.git
 cd research-atlas
 npm install
 npm run dev
